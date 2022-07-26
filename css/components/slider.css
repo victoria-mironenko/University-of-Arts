@@ -1,0 +1,30 @@
+.swiper {
+    /* width: 449px;
+    height: 568px; */
+}
+
+.swiper-button-next:after {
+    content: url(../../images/arrow-next.svg);
+    transform: translate(0, 260px);
+
+}
+
+.swiper-button-prev:after {
+    content: url(../../images/light-arrow.svg);
+    background: url(../../images/element-gr.png);
+    width: 137px;
+    height: 142px;
+    position: absolute;
+    top: 77px;
+    left: 25px;
+
+}
+.swiper-pagination{
+    
+}
+.swiper-pagination-bullet {
+    background-color: #fff;
+    border: 6px double #000;
+    transform: translate(120px, -85px);
+    margin: 0 8px !important;
+}

@@ -1,0 +1,12 @@
+.sponsors {
+    max-width: 1078px;
+    height: 47px;
+    margin: 0 auto;
+
+}
+
+.sponsors__list {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
