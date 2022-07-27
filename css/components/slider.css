@@ -1,0 +1,18 @@
+
+
+.swiper-button-next:after {
+    content: url(../../images/arrow-next.svg);
+    position: absolute;
+    bottom: -254px;
+
+}
+
+
+
+.swiper-pagination-bullet {
+    background-color: #fff;
+    border: 7px double var(--main-color);
+    transform: translate(120px, -85px);
+    margin: 0 9px!important;
+
+}

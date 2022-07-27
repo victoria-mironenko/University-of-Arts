@@ -1,0 +1,87 @@
+
+
+*,
+*::before,
+*::after{
+	padding: 0;
+	margin: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+
+img{
+	vertical-align: top;
+}
+h1, h2, h3, h4, h5, h6{
+	font-weight: inherit;
+	font-size: inherit;
+}
+a{
+	text-decoration: none;
+}
+html,
+body{
+	height: 100%;
+	color: var(--main-color);
+	font-family: 'Epilogue';
+	font-size: 17px;
+	line-height: 1.58;
+}
+
+h1{
+	font-size: 100px;
+	font-size: calc(24px + 76*(100vw / 1200));
+	font-weight: 700;
+}
+h2{
+	font-size: 32px;
+	font-size: calc(20px + 12*(100vw / 1200));
+	font-weight: 600;
+}
+h3{
+	font-size: 27px;
+	font-size: calc(18px + 9*(100vw / 1200));
+	font-weight: 600;
+}
+h4{
+	font-size: 20px;
+	font-size: calc(16px + 4*(100vw / 1200));
+	font-weight: 600;
+}
+h5{
+	font-size: 20px;
+	font-size: calc(16px + 4*(100vw / 1200));
+	font-weight: 400;
+}
+.wrapper{
+	min-height: 100%;
+	overflow: hidden;
+	display: flex;
+	flex-direction: column;
+}
+.container{
+	max-width: 1135px;
+	margin: 0 auto;
+	padding: 0 15px;
+}
+.common-container{
+	max-width: 1102px;
+	margin: 0 auto;
+	padding: 0 10px;
+}
+.main{
+	flex: 1 1 auto;
+}
+.overlay{
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	background: rgba(0, 0, 0, 0.8);
+	z-index: 100;
+	display: none;
+}
+.overlay--active{
+	display: block;
+}
