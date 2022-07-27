@@ -1,36 +1,62 @@
-.presentation{
+.presentation {
 	height: 750px;
 	display: flex;
 	gap: 5vw;
 
 }
 
-.presentation__text{
+.presentation__text {
 	flex: 0 1 50%;
 }
 
-.presentation__video{
+.presentation__video {
 	flex: 0 1 50%;
 	position: relative;
 	min-width: 0;
 }
 
 
-.presentation__video-wrapper{
+.video {
 	display: flex;
 	justify-content: flex-end;
 
 }
-.video-prew{
+
+.video__prew {
 	padding-top: 50px;
 	max-width: 100%;
-	
+
+
+}
+
+.swiper-slide {
+	position: relative;
+}
+
+.button-block {
+	position: absolute;
+	bottom: 44px;
+	left: 25px;
+	width: 137px;
+	height: 142px;
+	background: url(../../images/element-green.svg);
+
+}
+
+.button-block__text {
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 16px;
+	text-transform: lowercase;
+	color: var(--fade-color);
+	padding-top: 70px;
+	text-align: center;
 
 }
 
 
 
-.presentation__element-orange{
+.presentation__element-orange {
 	position: absolute;
 	top: 37px;
 	right: -25px;
@@ -38,32 +64,38 @@
 
 
 }
-.presentation__element-arrow{
+
+.presentation__element-arrow {
 	position: absolute;
 	top: 75px;
 	left: 115px;
 	z-index: 2;
 }
-.presentation__text-titles{
+
+.presentation__text-titles {
 	margin-top: 90px;
-	
+
 }
-h1{
+
+.presentation__text-titles>h1 {
 	margin-top: 35px;
 	margin-bottom: 41px;
 }
-h4{
+
+.presentation__text-titles>h5 {
 	line-height: 1.33;
 }
-.presentation__text-link{
+
+.presentation__text-link {
 	display: block;
 	width: 72px;
 	margin-top: 55px;
 	color: var(--light-color);
 	position: relative;
-	
+
 }
-.presentation__text-link::after{
+
+.presentation__text-link::after {
 	content: "";
 	position: absolute;
 	height: 2px;
@@ -75,28 +107,43 @@ h4{
 	background: var(--light-color);
 	transition: .8s;
 }
-.presentation__text-link:hover::after{
+
+.presentation__text-link:hover::after {
 	right: 0px;
+}
+
+.video-modal {
+	width: 800px;
+	height: 500px;
+	background-color: var(--green-color);
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	z-index: 110;
+	border-radius: 10px;
+	display: none;
+}
+
+.video-modal--active {
+	display: block;
+}
+.video-modal__item{
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	z-index: 111;
 }
 
 
 
 
-@media screen and (max-width: 767.98px){
-	.presentation{
+
+@media screen and (max-width: 767.98px) {
+	.presentation {
 		flex-direction: column;
 		height: auto;
 	}
 
-
-
-	.presentation__text{
-		
-	}
-
-	.presentation__video{
-		
-	}
 }
-
-

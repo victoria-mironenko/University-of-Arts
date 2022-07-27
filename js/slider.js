@@ -14,42 +14,24 @@ const swiper = new Swiper('.swiper', {
     // Navigation arrows
     navigation: {
         nextEl: '.swiper-button-next',
-        prevEl: '.swiper-button-prev',
+
     },
 
-    grabCursor: true,
 
     speed: 800,
 
-    // effect: 'cube',
-    // cubeEffect: {
-    //     slideShadow: true,
-    //     shadow: true,
-    //     shadowOffset: 20,
-    //     shadowScale: 0.94,
-    // },
+    effect: 'fade',
 
-
-    // effect: 'fade',
-
-    // fadeEffect: {
-    //     crossFade: true,
-    // },
-
-
-    effect: 'flip',
-
-    flipEffect: {
-        slideShadows: true,
-        limitRotation: true,
+    fadeEffect: {
+        crossFade: true,
     },
 
 
+    // effect: 'flip',
 
-
-
-
-
-
+    // flipEffect: {
+    //     slideShadows: true,
+    //     limitRotation: true,
+    // },
 
 });

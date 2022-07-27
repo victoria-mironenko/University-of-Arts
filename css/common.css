@@ -25,6 +25,7 @@ body{
 	color: var(--main-color);
 	font-family: 'Epilogue';
 	font-size: 17px;
+	line-height: 1.58;
 }
 
 h1{
@@ -32,12 +33,22 @@ h1{
 	font-size: calc(24px + 76*(100vw / 1200));
 	font-weight: 700;
 }
+h2{
+	font-size: 32px;
+	font-size: calc(20px + 12*(100vw / 1200));
+	font-weight: 600;
+}
 h3{
+	font-size: 27px;
+	font-size: calc(18px + 9*(100vw / 1200));
+	font-weight: 600;
+}
+h4{
 	font-size: 20px;
 	font-size: calc(16px + 4*(100vw / 1200));
 	font-weight: 600;
 }
-h4{
+h5{
 	font-size: 20px;
 	font-size: calc(16px + 4*(100vw / 1200));
 	font-weight: 400;
@@ -60,4 +71,17 @@ h4{
 }
 .main{
 	flex: 1 1 auto;
+}
+.overlay{
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	background: rgba(0, 0, 0, 0.8);
+	z-index: 100;
+	display: none;
+}
+.overlay--active{
+	display: block;
 }

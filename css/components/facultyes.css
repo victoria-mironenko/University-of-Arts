@@ -1,0 +1,41 @@
+.facultyes__container {
+    max-width: 1040px;
+    height: 403px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.facultyes__container--home-page {
+    margin-top: 120px;
+}
+
+.facultyes__item {
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    position: relative;
+}
+.facultyes__item>h3{
+    margin-top: 61px;
+    margin-bottom: 15px;
+}
+.facultyes__arrow-design{
+    position: absolute;
+    top: 40px;
+    right: 100px;
+}
+.facultyes__arrow-history{
+    position: absolute;
+    top: 9px;
+    right: 55px;
+
+}
+.facultyes__arrow-art{
+    position: absolute;
+    top: 72px;
+    right: 130px;
+}
