@@ -16,10 +16,12 @@
 /* -------second slider--------- */
 
 .swiper-2 {
-    height: 900px;
+    height: 870px;
     max-width: 1082px;
     margin: 0 auto;
     overflow: hidden;
+    padding-left: 20px;
+
 }
 
 .art-news__slide {
@@ -34,7 +36,7 @@
     font-size: 20px;
     line-height: 30px;
     color: rgba(0, 0, 0, 0.8);
-    transform: translate(950px, -95px);
+    transform: translate(950px, -20px);
 }
 
 .swiper-slider__fraction{

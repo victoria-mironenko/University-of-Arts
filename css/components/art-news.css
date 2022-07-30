@@ -11,9 +11,26 @@
 
 
 
+.art-news__link-block{
+    margin-top: 6px;
+}
 
 .art-news__subtitle{
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
+    margin-top: 25px;
+}
+
+.art-news__design{
+    color: var(--blue-color);
+    padding-right: 24px;
+}
+.art-news__art{
+    color: var(--green-color);
+    padding-right: 24px;
+}
+.art-news__history{
+    color: var(--pink-color);
+    padding-right: 24px;
 }

@@ -47,10 +47,13 @@ const swiperSecond = new Swiper('.swiper-2', {
     slidesPerView: 2,
     grid: {
         rows: 3,
+        
     },
 
+    
 
-    // spaceBetween: 30,
+
+    // spaceBetween: 20,
 
     slidesPerGroup: 2,
 
@@ -59,6 +62,16 @@ const swiperSecond = new Swiper('.swiper-2', {
         el: '.swiper-pagination-2',
         type: 'fraction',
         clickable: true,
+
+        renderFraction: function (currentClass, totalClass) {
+            return '<span class="' + currentClass + '"></span>' +
+                ' of ' +
+                '<span class="' + totalClass + '"></span>';
+        }
+
+
+
+
 
     },
 
