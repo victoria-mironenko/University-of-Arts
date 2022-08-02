@@ -20,19 +20,19 @@ const swiper = new Swiper('.swiper', {
 
     speed: 800,
 
-    // effect: 'fade',
+    effect: 'fade',
 
-    // fadeEffect: {
-    //     crossFade: true,
-    // },
-
-
-    effect: 'flip',
-
-    flipEffect: {
-        slideShadows: true,
-        limitRotation: true,
+    fadeEffect: {
+        crossFade: true,
     },
+
+
+    // effect: 'flip',
+
+    // flipEffect: {
+    //     slideShadows: true,
+    //     limitRotation: true,
+    // },
 
 });
 

@@ -3,7 +3,7 @@
     display: flex;
     gap: 1.7vw;
     margin-top: 118px;
-    margin-bottom: 85px;
+    margin-bottom: 95px;
 }
 
 .application__container {
@@ -19,8 +19,13 @@
     flex: 0 1 50%;
 }
 
+.application__logo{
+    margin-top: -50px;
+}
+
 .application__form {
     flex: 0 1 50%;
+    
 }
 
 .application__form-container {
