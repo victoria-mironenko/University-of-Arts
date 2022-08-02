@@ -116,12 +116,12 @@
 	width: 800px;
 	height: 500px;
 	background-color: var(--green-color);
+	border-radius: 12px;
 	position: fixed;
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
 	z-index: 110;
-	border-radius: 10px;
 	display: none;
 }
 
@@ -134,6 +134,7 @@
 	left: 50%;
 	transform: translate(-50%, -50%);
 	z-index: 111;
+	
 }
 
 
