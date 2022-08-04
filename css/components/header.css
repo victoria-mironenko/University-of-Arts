@@ -17,7 +17,6 @@
 }
 .menu-list{
 	display: flex;
-	flex-wrap: wrap;
 	justify-content: flex-end;
 		
 }
@@ -48,5 +47,19 @@
 	right: 0px;
 }
 
+/* ------------------------------------------------------- */
+/* -------------------------------------------------------- */
 
+@media screen and (max-width: 575.98px){
+	.header__logo{
+		width: 47px;
+		overflow: hidden;
+	}
+	
+}
 
+@media screen and (max-width: 444.98px){
+	.menu__link{
+		font-size: calc(14px + 2*(100vw / 1200));
+	}
+}
