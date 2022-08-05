@@ -33,14 +33,14 @@
 	position: relative;
 }
 
-.button-block,  .button-block-2, .button-block-3{
+.presentation__button-block{
 	position: absolute;
-	bottom: 44px;
-	left: 25px;
+	bottom: 180px;
+	left: 30px;
 	width: 137px;
 	height: 142px;
 	background: url(../../images/element-green.svg);
-
+	z-index: 2;
 }
 
 .button-block__text {
@@ -113,20 +113,25 @@
 }
 
 .video-modal {
-	width: 800px;
-	height: 500px;
+	width: 660px;
+	height: 415px;
 	background-color: var(--green-color);
 	border-radius: 12px;
 	position: fixed;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	z-index: 110;
-	display: none;
+	transition: all 0.8s ease-in-out 0s;
+	opacity: 0;
+	transform: perspective(800px) translate(50%, -50%) rotateX(45deg);
+	visibility: hidden;
 }
 
 .video-modal--active {
-	display: block;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: perspective(800px) translate(-50%, -50%) rotateX(0deg);
+	z-index: 110;
+	opacity: 1;
+	visibility: visible;
 }
 .video-modal__item{
 	position: fixed;
@@ -137,8 +142,13 @@
 	
 }
 
+/* ---------------------------------------------------------------------- */
+/* ----------------------------------------------------------------------- */
 
 
+@media screen and (max-width: 991.98px){
+
+}
 
 
 @media screen and (max-width: 767.98px) {
@@ -147,4 +157,16 @@
 		height: auto;
 	}
 
+}
+
+@media screen and (max-width: 575.98px){
+
+}
+
+@media screen and (max-width: 444.98px){
+
+}
+
+@media screen and (max-width: 319.98px) {
+	
 }
