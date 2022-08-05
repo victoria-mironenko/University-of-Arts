@@ -63,24 +63,24 @@
 	font-weight: 400;
 	font-size: calc(16px + 4*(100vw / 1200));
 	line-height: 27px;
-	color: rgba(255, 255, 255, 0.5);
+	color: var(--footer-text-color);
 }
 
 .footer__site a {
 	font-weight: 400;
 	font-size: calc(15px + 2*(100vw / 1200));
 	line-height: 27px;
-	color: rgba(255, 255, 255, 0.5);
+	color: var(--footer-text-color);
 }
 
 .menu__link--footer {
-	color: rgba(255, 255, 255, 0.5);
+	color: var(--footer-text-color);
 	padding: 0;
 	margin: 0;
 }
 
 .menu__link--footer::after {
-	background: rgba(255, 255, 255, 0.5);
+	background: var(--footer-text-color);
 }
 
 
@@ -160,7 +160,7 @@
 	}
 
 	.footer__city {
-		border-top: 4px double rgba(255, 255, 255, 0.5);
+		border-top: 4px double var(--footer-text-color);
 		padding-top: 5px
 	}
 
