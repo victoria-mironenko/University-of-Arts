@@ -10,7 +10,11 @@
     justify-content: space-around;
     align-items: center;
 }
+.sponsors__item:hover .sponsors__image{
+    transform: rotate(360deg);
+    transition: .5s;
 
+}
 
 /* ------------------------------------------------------------------ */
 /* ------------------------------------------------------------------ */
