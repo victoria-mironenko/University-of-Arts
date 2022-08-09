@@ -57,10 +57,22 @@
 /* ------------------------------------------------------------------ */
 /* ------------------------------------------------------------------ */
 
-@media screen and (max-width: 991.98px) {}
+@media screen and (max-width: 991.98px) {
+    .facultyes__container {
+        max-width: 900px;
+        height: auto;
+    }
+    .facultyes__container--home-page{
+        margin-top: 60px;
+    }
+}
 
 
-@media screen and (max-width: 767.98px) {}
+@media screen and (max-width: 767.98px) {
+    .facultyes__container {
+        max-width: 680px;
+    }
+}
 
 @media screen and (max-width: 575.98px) {}
 

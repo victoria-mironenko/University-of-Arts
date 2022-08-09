@@ -36,7 +36,12 @@ const swiper = new Swiper('.swiper', {
 
 });
 
-//--------------------------------------------------------------
+
+
+
+
+
+// --------------------------------------------------------------
 
 const swiperSecond = new Swiper('.swiper-2', {
     // Optional parameters
@@ -44,13 +49,10 @@ const swiperSecond = new Swiper('.swiper-2', {
 
     autoHeight: false,
 
-    slidesPerView: 2,
-    grid: {
-        rows: 3,
-        
-    },
+    // slidesPerView: 2,
 
-    
+
+
 
 
     // spaceBetween: 20,
@@ -82,5 +84,49 @@ const swiperSecond = new Swiper('.swiper-2', {
 
     slideToClickedSlide: true,
 
+    breakpoints: {
+        // when window width is >= 320px
+        320: {
+            slidesPerGroup: 1,
+            slidesPerView: 1,
+            grid: {
+                rows: 1,
 
-});
+            },
+        },
+        // when window width is >= 480px
+        480: {
+            slidesPerGroup: 1,
+            slidesPerView: 1,
+            grid: {
+                rows: 1,
+
+            },
+        },
+        768: {
+            slidesPerGroup: 2,
+            slidesPerView: 2,
+            grid: {
+                rows: 2,
+
+            },
+        },
+        950: {
+            slidesPerGroup: 2,
+            slidesPerView: 2,
+            grid: {
+                rows: 2,
+
+            },
+        },
+        1120: {
+            slidesPerGroup: 2,
+            slidesPerView: 2,
+            grid: {
+                rows: 3,
+
+            },
+        },
+
+    }
+})

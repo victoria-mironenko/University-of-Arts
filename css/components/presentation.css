@@ -19,19 +19,16 @@
 .video {
 	display: flex;
 	justify-content: flex-end;
-
+	
 }
 
 .video__prew {
 	padding-top: 50px;
 	max-width: 100%;
 
-
 }
 
-.swiper-slide {
-	position: relative;
-}
+
 
 .presentation__button-block {
 	position: absolute;
@@ -42,6 +39,7 @@
 	background: url(../../images/element-green.svg);
 	z-index: 2;
 	cursor: pointer;
+	
 }
 
 .button-block__text {
@@ -61,9 +59,10 @@
 	top: 37px;
 	right: -25px;
 	z-index: 2;
-
+	
 
 }
+
 
 .presentation__element-arrow {
 	position: absolute;
@@ -151,20 +150,104 @@
 
 /* ---------------------------------------------------------------------- */
 /* ----------------------------------------------------------------------- */
+@media screen and (max-width: 1099.98px) {
+
+	.presentation{
+		height: auto;
+		padding-bottom: 30px;
+		margin-bottom: 30px;
+	}
+	.presentation__element-arrow{
+		transform: translate(-55px, 0px);
+	}
+	.presentation__element-orange{
+		transform: translate(0px, 0px);
+	}
+	.presentation__button-block{
+		transform: translate(-40px, 145px);
+	}
+	
+	
+}
 
 
-@media screen and (max-width: 991.98px) {}
+@media screen and (max-width: 991.98px) {
+	
+	.presentation__text-titles {
+		margin-top: 40px;
+	
+	}
+	.video__prew {
+		padding-top: 10px;
+		max-width: 80%;
+	
+	}
+
+	.presentation__element-arrow{
+		transform: translate(-8px, -50px);
+	}
+	.presentation__element-orange{
+		transform: translate(6px, -40px);
+	}
+	.presentation__button-block{
+		transform: translate(0px, 155px);
+	}
+}
+
+
+@media screen and (max-width: 881.98px){
+	.presentation__element-arrow{
+		transform: translate(-14px, -70px);
+	}
+	.presentation__element-orange{
+		transform: translate(6px, -57px);
+	}
+	.presentation__button-block{
+		transform: translate(-5px, 137px);
+	}
+	
+}
 
 
 @media screen and (max-width: 767.98px) {
 	.presentation {
 		flex-direction: column;
 		height: auto;
+		justify-content: center;
+		
+	}
+	.video{
+		justify-content: center;
+	}
+	.presentation__element-arrow{
+		transform: translate(13px, -40px);
+	}
+	.presentation__element-orange{
+		top: 55px;
+		right: 84px;
+	}
+	.presentation__button-block{
+		transform: translate(15px, 139px);
 	}
 
 }
 
-@media screen and (max-width: 575.98px) {}
+
+@media screen and (max-width: 575.98px) {
+	.presentation__element-arrow{
+		transform: translate(-65px, -58px);
+	}
+	.presentation__element-orange{
+		top: 36px;
+		right: 14px;
+	}
+	.presentation__button-block{
+		transform: translate(-66px, 152px);
+	}
+	.video-modal{
+		
+	}
+}
 
 @media screen and (max-width: 444.98px) {}
 
