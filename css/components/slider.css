@@ -3,15 +3,18 @@
     position: absolute;
     bottom: -254px;
 
+
 }
 
 .swiper-pagination-bullet {
     background-color: #fff;
     border: 7px double var(--main-color);
     transform: translate(120px, -85px);
-    margin: 0 9px !important;
+    margin-left: 20px !important;
+
 
 }
+
 
 /* -------second slider--------- */
 
@@ -24,10 +27,6 @@
 
 }
 
-.art-news__slide {
-    width: 330px;
-    height: 418px;
-}
 
 
 
@@ -36,34 +35,174 @@
     font-size: 20px;
     line-height: 30px;
     color: rgba(0, 0, 0, 0.8);
-    transform: translate(950px, -20px);
+    transform: translate(985px, -20px);
+    /* position: absolute;
+    bottom: -22px;
+    left: 990px; */
+
 }
 
-.swiper-slider__fraction{
+.swiper-slider__fraction {
     display: flex;
 }
 
+/* ----------------------First Slider-------------------------------------------- */
 /* ------------------------------------------------------------------ */
-/* ------------------------------------------------------------------ */
+@media screen and (max-width: 1099.98px) {
+    .swiper-pagination-bullet {
+        transform: translate(66px, 50px);
+    }
 
-@media screen and (max-width: 991.98px){
+    .swiper-button-next:after {
+        bottom: -323px;
+        right: -20px;
+    }
+}
+
+@media screen and (max-width: 991.98px) {
+    .swiper-pagination-bullet {
+        transform: translate(10px, 50px);
+
+    }
+
+    .swiper-button-next:after {
+        bottom: -242px;
+        right: -8px;
+    }
+}
+@media screen and (max-width: 881.98px){
+    .swiper-button-next:after {
+        bottom: -190px;
+        right: -23px;
+    }
+    .swiper-pagination-bullet {
+        transform: translate(48px, 8px);
+
+    }
 
 }
 
 
 @media screen and (max-width: 767.98px) {
+    .swiper-button-next:after {
+        bottom: -252px;
+        right: 26px;
+    }
+    .swiper-pagination-bullet {
+        transform: translate(33px, 50px);
 
-
+    }
 }
 
-@media screen and (max-width: 575.98px){
+@media screen and (max-width: 575.98px) {
+    .swiper-button-next:after {
+        bottom: -252px;
+        right: 26px;
+    }
+    .swiper-pagination-bullet {
+        transform: translate(35px, 50px);
 
+    }
 }
 
-@media screen and (max-width: 444.98px){
+@media screen and (max-width: 444.98px) {}
 
+@media screen and (max-width: 319.98px) {}
+
+
+/* ----------------------Second Slider-------------------------------------------- */
+/* ------------------------------------------------------------------ */
+@media screen and (max-width: 1099.98px) {
+    .swiper-2 {
+        max-width: 740px;
+        padding-left: 30px;
+    }
+
+    .swiper-pagination-fraction {
+        transform: translate(772px, -20px);
+    }
+}
+
+@media screen and (max-width: 991.98px) {
+    .swiper-2 {
+        padding-left: 25px;
+    }
+
+    .swiper-pagination-fraction {
+        transform: translate(710px, -20px);
+    }
+}
+
+@media screen and (max-width: 881.98px) {
+    .swiper-pagination-fraction {
+        transform: translate(667px, -20px);
+    }
+}
+
+@media screen and (max-width: 811.98px) {}
+
+@media screen and (max-width: 767.98px) {
+    .swiper-2 {
+        height: 440px;
+        max-width: 350px;
+        padding-left: 10px;
+    }
+
+    .swiper-pagination-fraction {
+        transform: translate(427px, -40px);
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 675.98px) {
+    .swiper-2 {
+        padding-left: 7px;
+    }
+
+    .swiper-pagination-fraction {
+        transform: translate(420px, -40px);
+    }
+}
+
+@media screen and (max-width: 575.98px) {
+    .swiper-2 {
+        padding-left: 10px;
+    }
+
+    .swiper-pagination-fraction {
+        transform: translate(320px, -40px);
+    }
+}
+
+@media screen and (max-width: 444.98px) {
+    .swiper-2 {
+        padding-left: 13px;
+    }
+
+    .swiper-pagination-fraction {
+        transform: translate(287px, -40px);
+    }
+}
+
+@media screen and (max-width: 379.98px) {
+    .swiper-2 {
+        height: 340px;
+        max-width: 270px;
+        padding-left: 10px;
+    }
+
+    .swiper-pagination-fraction {
+        transform: translate(255px, 5px);
+        font-size: 16px;
+    }
 }
 
 @media screen and (max-width: 319.98px) {
-	
+    .swiper-2 {
+        padding-left: 1px;
+    }
+
+    .swiper-pagination-fraction {
+        transform: translate(208px, 0px);
+    }
 }

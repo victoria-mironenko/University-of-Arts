@@ -111,13 +111,30 @@
 
 /* ------------------------------------------------------------------ */
 /* ------------------------------------------------------------------ */
+@media screen and (max-width: 1099.98px){
+    .application__wrapper{
+        margin-top: 95px;
+    }
+}
 
 @media screen and (max-width: 991.98px){
+    .application__wrapper{
+        margin-top: 85px;
+    }
+
+}
+@media screen and (max-width: 871.98px){
+    .application__wrapper{
+        margin-top: 70px;
+    }
 
 }
 
 
 @media screen and (max-width: 767.98px) {
+    .application__wrapper{
+        margin-top: 15px;
+    }
 
 
 }
