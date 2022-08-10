@@ -12,12 +12,10 @@
 
 .sponsors__link {
     display: flex;
-}
-
-.sponsors__image {
     justify-content: center;
     align-items: center;
 }
+
 
 .sponsors__item:hover .sponsors__image {
     transform: rotate(360deg);
@@ -37,7 +35,7 @@
 
 @media screen and (max-width: 767.98px) {
     .sponsors__image {
-        width: 60%;
+        width: 70%;
     }
 }
 
@@ -45,7 +43,7 @@
 
 @media screen and (max-width: 575.98px) {
     .sponsors__image {
-        width: 50%;
+        width: 60%;
     }
 }
 

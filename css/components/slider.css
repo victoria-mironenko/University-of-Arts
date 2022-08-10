@@ -85,8 +85,8 @@
 
 @media screen and (max-width: 767.98px) {
     .swiper-button-next:after {
-        bottom: -252px;
-        right: 26px;
+        bottom: -303px;
+        right: 73px;
     }
     .swiper-pagination-bullet {
         transform: translate(33px, 50px);
@@ -105,9 +105,27 @@
     }
 }
 
-@media screen and (max-width: 444.98px) {}
+@media screen and (max-width: 444.98px) {
+    .swiper-button-next:after {
+        bottom: -200px;
+        right: 15px;
+    }
+    .swiper-pagination-bullet {
+        transform: translate(0px, 49px);
 
-@media screen and (max-width: 319.98px) {}
+    }
+}
+
+@media screen and (max-width: 319.98px) {
+    .swiper-button-next:after {
+        bottom: -149px;
+        right: 0px;
+    }
+    .swiper-pagination-bullet {
+        transform: translate(-40px, 49px);
+
+    }
+}
 
 
 /* ----------------------Second Slider-------------------------------------------- */
