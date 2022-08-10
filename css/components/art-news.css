@@ -76,6 +76,7 @@
 @media screen and (max-width: 575.98px) {
     .art-news__wrapper>h2{
         padding-bottom: 20px;
+        margin-top: 44px;
     }
 }
 

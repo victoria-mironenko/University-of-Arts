@@ -10,22 +10,23 @@
     width: 332px;
 }
 
-.application__container>h2{
+.application__container-text>h2 {
     line-height: 42px;
     padding-top: 13px;
     padding-bottom: 47px;
 }
+
 .application__content {
     flex: 0 1 50%;
 }
 
-.application__logo{
+.application__logo {
     margin-top: -50px;
 }
 
 .application__form {
     flex: 0 1 50%;
-    
+
 }
 
 .application__form-container {
@@ -60,10 +61,11 @@
     overflow: hidden;
 }
 
-.application__form-button:focus{
+.application__form-button:focus {
     outline: 0;
 }
-.application__form-button::before{
+
+.application__form-button::before {
     content: '';
     display: block;
     position: absolute;
@@ -77,7 +79,7 @@
     transform: translateX(-100px) skewX(-15deg);
 }
 
-.application__form-button::after{
+.application__form-button::after {
     content: '';
     display: block;
     position: absolute;
@@ -92,17 +94,18 @@
 }
 
 
-.application__form-button:hover{
+.application__form-button:hover {
     background: var(--green-color);
     cursor: pointer;
 }
-.application__form-button:hover::before{
+
+.application__form-button:hover::before {
     transform: translateX(300px) skewX(-15deg);
     opacity: 0.6;
     transition: .9s;
 }
 
-.application__form-button:hover::after{
+.application__form-button:hover::after {
     transform: translateX(300px) skewX(-15deg);
     opacity: 1;
     transition: .9s;
@@ -111,20 +114,21 @@
 
 /* ------------------------------------------------------------------ */
 /* ------------------------------------------------------------------ */
-@media screen and (max-width: 1099.98px){
-    .application__wrapper{
+@media screen and (max-width: 1099.98px) {
+    .application__wrapper {
         margin-top: 95px;
     }
 }
 
-@media screen and (max-width: 991.98px){
-    .application__wrapper{
+@media screen and (max-width: 991.98px) {
+    .application__wrapper {
         margin-top: 85px;
     }
 
 }
-@media screen and (max-width: 871.98px){
-    .application__wrapper{
+
+@media screen and (max-width: 871.98px) {
+    .application__wrapper {
         margin-top: 70px;
     }
 
@@ -132,21 +136,43 @@
 
 
 @media screen and (max-width: 767.98px) {
-    .application__wrapper{
+    .application__wrapper {
+        height: auto;
         margin-top: 15px;
+        margin-bottom: 40px;
+        flex-direction: column;
+    }
+    .application__container{
+        width: auto;
+        display: flex;
+        gap: 3vw;
+    }
+    .application__container-text{
+        flex: 0 1 50%;
     }
 
-
 }
 
-@media screen and (max-width: 575.98px){
-
+@media screen and (max-width: 575.98px) {
+    .application__container{
+        flex-direction: column;
+    }
+    .application__container-text>h2 {
+        padding-top: 10px;
+        padding-bottom: 25px;
+    }
 }
 
-@media screen and (max-width: 444.98px){
-
+@media screen and (max-width: 444.98px) {
+    .application__logo{
+        width: 90%;
+        height: 90%;
+    }
 }
 
 @media screen and (max-width: 319.98px) {
-	
+    .application__logo{
+        width: 80%;
+        height: 80%;
+    }
 }
