@@ -35,14 +35,47 @@
     gap: 28px;
 }
 
+.form-part{
+    position: relative;
+
+}
+
 .application__form-field {
     background-color: rgba(223, 223, 223, 1);
     line-height: 27px;
     padding: 24px 31px 19px 33px;
     color: rgba(45, 45, 45, 0.5);
+    outline: none;
+    width: 100%;
+    transition: .5s;
+}
+.form-part span{
+    position: absolute;
+    left: 0;
+    padding: 24px 31px 19px 33px;
+    color: rgba(45, 45, 45, 0.5);
+    pointer-events: none;
+    transition: .5s;
+
+}
+.application__form-field:valid ~ span,
+.application__form-field:focus ~ span{
+    color: var(--green-color);
+    transform: translate(10px, -9px);
+    font-size: .8em;
+    padding: 0 10px;
+    background: #fff;
+    border-left: 1px solid var(--green-color);
+    border-right: 1px solid var(--green-color);
+    letter-spacing: 0.2em;
+}
+.application__form-field:valid,
+.application__form-field:focus{
+    border: 1px solid var(--green-color);
 }
 
-.application__form-container>textarea {
+
+.application__form-container textarea {
     height: 196px;
 }
 

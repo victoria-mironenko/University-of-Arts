@@ -1,0 +1,15 @@
+.header-academics {
+    position: absolute;
+    top: 0;
+    left: 0;
+
+}
+
+.menu__link--academics {
+
+    background-image: linear-gradient(to right,
+            var(--green-color),
+            var(--green-color) 50%,
+            rgba(255, 255, 255, 0.8) 50%);
+
+}

@@ -30,8 +30,9 @@ body{
 
 h1{
 	font-size: 100px;
-	font-size: calc(24px + 76*(100vw / 1200));
+	font-size: calc(20px + 76*(100vw / 1200));
 	font-weight: 700;
+	line-height: 1.025;
 }
 h2{
 	font-size: 32px;
