@@ -17,9 +17,12 @@
     flex-direction: column;
     align-items: center;
     text-align: center;
-    position: relative;
+    
 }
+.facultyes__item-link{
+    position: relative;
 
+}
 .facultyes__item>h3 {
     margin-top: 61px;
     margin-bottom: 15px;
@@ -28,20 +31,20 @@
 .facultyes__arrow-design {
     position: absolute;
     top: 40px;
-    right: 100px;
+    right: 40px;
 }
 
 .facultyes__arrow-history {
     position: absolute;
     top: 9px;
-    right: 55px;
+    right: 9px;
 
 }
 
 .facultyes__arrow-art {
     position: absolute;
-    top: 72px;
-    right: 130px;
+    top: 70px;
+    right: 84px;
 }
 
 

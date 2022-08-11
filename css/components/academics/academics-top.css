@@ -1,0 +1,20 @@
+.academics-top{
+    height: 755px;
+    background: url(../../../images/academics/background-image.jpg) right no-repeat;
+    
+}
+.academics-top__text{
+    padding-top: 107px;
+}
+.academics-top__text-titles{
+    width: 568px;
+}
+
+.academics-top__text-titles>h1{
+    margin-top: 100px;
+	margin-bottom: 30px;
+}
+
+.academics-top__text-titles>h5{
+    line-height: 1.025;
+}
