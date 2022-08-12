@@ -1,13 +1,19 @@
 .academics-top{
     height: 755px;
-    background: url(../../../images/academics/background-image.jpg) right no-repeat;
+    /* background: url(../../../images/academics/background-image.jpg) right no-repeat; */
+    display: flex;
     
 }
 .academics-top__text{
     padding-top: 107px;
+    flex: 0 1 50%;
+    position: relative;
+}
+.academics-top__view img{
+    width: 100%;
 }
 .academics-top__text-titles{
-    width: 568px;
+    max-width: 568px;
 }
 
 .academics-top__text-titles>h1{
@@ -17,4 +23,16 @@
 
 .academics-top__text-titles>h5{
     line-height: 1.025;
+}
+.green-leaf{
+    position: absolute;
+    top: 53%;
+    left: 77%;
+    z-index: -1;
+}
+.pink-segment{
+    position: absolute;
+    top: 23%;
+    left: 2%;
+    z-index: -1;
 }

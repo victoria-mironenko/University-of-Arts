@@ -71,11 +71,12 @@ const swiperSecond = new Swiper('.swiper-2', {
                 '<span class="' + totalClass + '"></span>';
         }
 
-
-
-
-
     },
+
+    
+
+
+
 
     mousewheel: {
         sensitivity: 1,

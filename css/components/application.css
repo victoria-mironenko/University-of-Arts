@@ -45,6 +45,7 @@
     line-height: 27px;
     padding: 24px 31px 19px 33px;
     color: rgba(45, 45, 45, 0.5);
+    border: 1px solid transparent;
     outline: none;
     width: 100%;
     transition: .5s;
