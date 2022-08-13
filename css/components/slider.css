@@ -1,18 +1,41 @@
-.swiper-button-next:after {
-    content: url(../../images/arrow-next.svg);
-    position: absolute;
-    bottom: -254px;
 
 
+.swiper-button-next::after{
+    display: none;
+}
+.swiper-button-next{
+    width: 80px;
+    height: 15px;
+    background: url('../../images/arrow-next.svg');
+    position: static;
+    margin-top: 3px;
+    grid-area: next;
+}
+.presentation__manage-block{
+    padding-top: 15px;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-template-areas: "pag next";
+    justify-items: end;
+    
 }
 
-.swiper-pagination-bullet {
+.swiper-pagination{
+
+    position: static;
+    grid-area: pag;
+    justify-self: end;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 4px;
+}
+.swiper-pagination-bullet{
+    position: static;
+    margin-left: 15px !important;
     background-color: #fff;
     border: 7px double var(--main-color);
-    transform: translate(120px, -85px);
-    margin-left: 20px !important;
-
-
+    
+    
 }
 
 
@@ -36,9 +59,7 @@
     line-height: 30px;
     color: rgba(0, 0, 0, 0.8);
     transform: translate(985px, -20px);
-    /* position: absolute;
-    bottom: -22px;
-    left: 990px; */
+
 
 }
 
@@ -48,82 +69,21 @@
 
 /* ----------------------First Slider-------------------------------------------- */
 /* ------------------------------------------------------------------ */
-@media screen and (max-width: 1099.98px) {
-    .swiper-pagination-bullet {
-        transform: translate(66px, 50px);
+@media screen and (max-width: 767.98px){
+    .presentation__manage-block{
+        justify-items: start;
     }
-
-    .swiper-button-next:after {
-        bottom: -323px;
-        right: -20px;
+    .swiper-pagination{
+        justify-content: center;
     }
 }
 
-@media screen and (max-width: 991.98px) {
-    .swiper-pagination-bullet {
-        transform: translate(10px, 50px);
-
-    }
-
-    .swiper-button-next:after {
-        bottom: -242px;
-        right: -8px;
-    }
-}
-@media screen and (max-width: 881.98px){
-    .swiper-button-next:after {
-        bottom: -190px;
-        right: -23px;
-    }
-    .swiper-pagination-bullet {
-        transform: translate(48px, 8px);
-
-    }
+@media screen and (max-width: 575.98px){
 
 }
-
-
-@media screen and (max-width: 767.98px) {
-    .swiper-button-next:after {
-        bottom: -303px;
-        right: 73px;
-    }
-    .swiper-pagination-bullet {
-        transform: translate(33px, 50px);
-
-    }
-}
-
-@media screen and (max-width: 575.98px) {
-    .swiper-button-next:after {
-        bottom: -252px;
-        right: 26px;
-    }
-    .swiper-pagination-bullet {
-        transform: translate(35px, 50px);
-
-    }
-}
-
-@media screen and (max-width: 444.98px) {
-    .swiper-button-next:after {
-        bottom: -200px;
-        right: 15px;
-    }
-    .swiper-pagination-bullet {
-        transform: translate(0px, 49px);
-
-    }
-}
-
-@media screen and (max-width: 319.98px) {
-    .swiper-button-next:after {
-        bottom: -149px;
-        right: 0px;
-    }
-    .swiper-pagination-bullet {
-        transform: translate(-40px, 49px);
-
+@media screen and (max-width: 444.98px){
+    .presentation__manage-block{
+        grid-template-columns: 2fr 1fr;
     }
 }
 
