@@ -273,11 +273,16 @@
 	.presentation__element-orange {
 		top: 24px;
 		right: -5px;
+		
 	}
 
 	.presentation__button-block {
-		transform: translate(-64px, 181px);
+		transform: translate(-64px, 148px);
 	}
 }
 
-@media screen and (max-width: 319.98px) {}
+@media screen and (max-width: 319.98px) {
+	.presentation__button-block {
+		transform: translate(-64px, 148px);
+	}
+}
