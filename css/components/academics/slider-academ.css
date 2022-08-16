@@ -1,0 +1,149 @@
+.swiper-academ-lf {
+    height: 450px;
+    padding: 100px 0 90px 80px;
+    overflow: hidden;
+    position: relative;
+}
+
+.slide-item {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: calc(16px + 16*(100vw / 1200));
+    line-height: 1.5;
+    color: #fff;
+    width: 30vw;
+    height: 10vh;
+
+
+}
+
+.swiper-wrapper-lf>.swiper-slide {
+    opacity: 0.5;
+    transition: .5s;
+}
+
+.swiper-wrapper-lf>.swiper-slide-active {
+    opacity: 1;
+    transition: .5s;
+    transform: scale(1.5);
+    margin-left: 160px;
+
+}
+
+.swiper-wrapper-lf>.swiper-slide-prev {
+    opacity: 0.7;
+    transition: .5s;
+    transform: scale(1.2);
+    margin-left: 80px;
+}
+
+.swiper-wrapper-lf>.swiper-slide-next {
+    opacity: 0.7;
+    transition: .5s;
+    transform: scale(1.2);
+    margin-left: 80px;
+}
+
+
+
+.swiper-button-prev-3::after {
+    display: none;
+}
+
+.swiper-button-prev-3 {
+    width: 12px;
+    height: 10px;
+    background: url('../../../images/academics/arrowToTop.svg');
+    position: absolute;
+    margin-bottom: 10px;
+    left: 77px;
+    top: 183px;
+}
+
+.swiper-button-next-3::after {
+    display: none;
+}
+
+.swiper-button-next-3 {
+    width: 12px;
+    height: 10px;
+    background: url('../../../images/academics/arrowToBottom.svg');
+    position: absolute;
+    left: 77px;
+    top: 210px;
+}
+
+/* ----------------------------------------------------------------------------------------------- */
+/* -------------------second slider------------------------------------------------------------ */
+/* -------------------------------------------------------------------------------------------- */
+
+.swiper-academ-ri {
+    margin-left: 100px;
+    height: 450px;
+    padding: 10px;
+    overflow: hidden;
+
+}
+
+.slide-item-ri {
+    width: 370px;
+    padding: 50px 30px;
+}
+
+.slide-item-ri>h6 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: calc(14px + 10*(100vw / 1200));
+    line-height: 1.2;
+    text-align: left;
+    margin-bottom: 5px;
+}
+
+.slide-item-ri>p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: calc(12px + 8*(100vw / 1200));
+    line-height: 1.2;
+}
+
+.swiper-wrapper-ri>.swiper-slide {
+    opacity: 0;
+    /* transform: translateY(100%); */
+}
+
+.swiper-wrapper-ri>.swiper-slide-active {
+    opacity: 1;
+    transition: .5s;
+
+}
+
+
+/* ------------------------------------------------------------------------------------------------- */
+/* -------------------       media    first slider       --------------------------------- */
+/* ------------------------------------------------------------------------------------------------- */
+@media screen and (min-width: 1200px) {
+    .slide-item {
+        font-size: 32px;
+        line-height: 48px;
+
+    }
+}
+
+/* ------------------------------------------------------------------------------------------------- */
+/* ----------------------   media    second slider   ---------------------------------------------- */
+/* ------------------------------------------------------------------------------------------------- */
+
+@media screen and (min-width: 1200px) {
+    .slide-item-ri>h6 {
+        font-size: 24px;
+        line-height: 29px;
+    }
+
+    .slide-item-ri>p {
+        font-size: 20px;
+        line-height: 24px;
+    }
+}
