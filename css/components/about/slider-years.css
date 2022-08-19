@@ -1,0 +1,63 @@
+.home__years {
+    width: 200px;
+    height: 231px;
+    position: relative;
+}
+
+.years-slider {
+    height: 231px;
+    overflow: hidden;
+    width: 100%;
+    
+
+}
+
+.years-wrapper {
+    display: flex;
+    width: 100%;
+    height: 100%;
+
+}
+
+.slide-years {
+    flex-shrink: 0;
+
+}
+
+.years__item {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+    color: var(--light-color);
+    height: 24px;
+    width: 48px;
+
+
+}
+/* .years-wrapper>.swiper-slide-active {
+    color: rgba(45, 45, 45, 0.9);
+    transition: .5s;
+    transform: scale(1.5);
+    
+
+} */
+
+.swiper-button-prev-5::after {
+    display: none;
+}
+.swiper-button-next-5::after {
+    display: none;
+}
+
+.swiper-button-prev-5{
+    width: 22px;
+    height: 40px;
+    background-image: url('../../../images/about/home/prev-arrow.svg');
+    position: absolute;
+}
+.swiper-button-next-5{
+    width: 22px;
+    height: 40px;
+    background-image: url('../../../images/about/home/next-arrow.svg');
+    position: absolute;
+}

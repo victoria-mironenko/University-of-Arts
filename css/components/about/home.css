@@ -1,0 +1,77 @@
+.home {
+    margin-top: 140px;
+    width: 100%;
+    height: 642px;
+    margin-bottom: 39px;
+}
+
+.home__wrapper {
+    height: 642px;
+    display: grid;
+    grid-template-columns: 200px 412px 430px;
+    grid-template-rows: 392px 231px;
+    gap: 19px;
+    grid-template-areas: "home-slider home-slider home-view"
+        "home-years home-photo home-view";
+
+}
+
+.home__slider {
+    grid-area: home-slider;
+    background-image: url('../../../images/about/home/home-img.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: flex;
+    flex-direction: column;
+}
+.photo-slider-btn--blue{
+    margin-right: 17px;
+}
+.photo-slider-btn--blue:hover {
+    background-color: var(--blue-color);
+
+}
+.photo-slider-content--home{
+    margin-top: 100px;
+}
+.photo-slider-content--home>p:nth-child(1){
+    padding-bottom: 14px;
+
+}
+.photo-slider-content--home>p:nth-child(2){
+    padding-bottom: 11px;
+
+}
+.photo-slider-content--home>p:nth-child(3){
+    padding-bottom: 11px;
+
+}
+
+.home-slider-el {
+    flex: 0 1 60px;
+    align-self: flex-end;
+    margin-right: 20px;
+    margin-bottom: 14px;
+}
+
+.student-work--about{
+    background-color: var(--blue-color);
+}
+
+.home__view {
+    grid-area: home-view;
+
+}
+.home__view-item{
+    border: none;
+}
+
+.home__years {
+    grid-area: home-years;
+
+}
+
+.home__photo {
+    grid-area: home-photo;
+
+}

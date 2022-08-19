@@ -83,11 +83,42 @@
     font-size: 17px;
     line-height: 21px;
     color: #fff;
-
     opacity: 0.5;
 
 }
 
 .education__link-block>a:hover {
     opacity: 1;
+}
+
+.education__show-more{
+    margin-left: 65%;
+}
+.education__show-more-link {
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.7);
+    display: block;
+    width: 100px;
+    position: relative;
+}
+
+.education__show-more-link::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    border-radius: 5px;
+    background-color: var(--blue-color);
+    bottom: 0;
+    left: 0;
+    transform-origin: right;
+    transform: scaleX(0);
+    transition: transform .5s ease-in-out;
+}
+
+.education__show-more-link:hover::after {
+    background-color:  rgba(255, 255, 255, 0.7);
+    transform-origin: left;
+    transform: scaleX(1);
 }
