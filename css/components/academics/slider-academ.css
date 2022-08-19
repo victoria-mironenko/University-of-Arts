@@ -54,11 +54,11 @@
 .swiper-button-prev-3 {
     width: 12px;
     height: 10px;
-    background: url('../../../images/academics/arrowToTop.svg');
+    background: url('../../../images/academics/arrowToBottom.svg');
     position: absolute;
     margin-bottom: 10px;
     left: 77px;
-    top: 183px;
+    top: 210px;
 }
 
 .swiper-button-next-3::after {
@@ -68,10 +68,10 @@
 .swiper-button-next-3 {
     width: 12px;
     height: 10px;
-    background: url('../../../images/academics/arrowToBottom.svg');
+    background: url('../../../images/academics/arrowToTop.svg');
     position: absolute;
     left: 77px;
-    top: 210px;
+    top: 183px;
 }
 
 /* ----------------------------------------------------------------------------------------------- */

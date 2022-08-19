@@ -1,8 +1,7 @@
 .activities {
-    background-color: aqua;
     width: 100%;
     height: 911px;
-
+    margin-bottom: 154px;
 
 }
 
@@ -42,7 +41,7 @@
     content: "";
     position: absolute;
     top: 20px;
-    right: -7px; 
+    right: -7px;
     width: 13px;
     height: 13px;
     background-image: url('../../../images/academics/activities/dot.svg');
@@ -88,7 +87,7 @@
 }
 
 .photo-slider-btn {
-    flex: 0 1 40px;
+    flex: 0 1 25px;
     align-self: flex-end;
     display: flex;
     justify-content: center;
@@ -99,35 +98,157 @@
     line-height: 15px;
     color: rgba(255, 255, 255, 0.6);
     background: transparent;
-    border: 1px solid transparent;
-    padding: 2px 5px;
-    margin-top: 5px;
+    padding: 4px 8px;
+    margin-top: 16px;
     margin-right: 26px;
-    border-radius: 6px;
+    border-radius: 12px;
     cursor: pointer;
 }
 
 .photo-slider-btn:hover {
-    border: 1px solid #fff;
     color: #fff;
     background-color: var(--pink-color);
 
 }
 
-.photo-slider-content{
-    flex:  1 1 auto;
+.photo-slider-content {
+    flex: 1 1 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
 }
-.photo-slider-el{
+
+.photo-slider-content>p {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 25px;
+    color: #fff;
+    padding-bottom: 15px;
+}
+
+.photo-slider-content>p:nth-child(1) {
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 20px;
+}
+
+.photo-slider-content>p:nth-child(2) {
+    padding-bottom: 20px;
+}
+
+.photo-slider-content>p:nth-child(4) {
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 15px;
+}
+
+
+.photo-slider-el {
     flex: 0 1 60px;
     align-self: flex-end;
     margin-right: 26px;
+    margin-bottom: 8px;
 }
 
 .activities__text-block {
     grid-area: text-bl;
+    color: rgba(45, 45, 45, 0.9);
+    position: relative;
+}
 
+.activities__text-block-title {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 48px;
+    margin-bottom: 18px;
+    margin-top: 20px;
+
+}
+
+.activities__text {
+    width: 550px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 20px;
+    padding-bottom: 25px;
+}
+
+.activities__button-block {
+    position: absolute;
+    top: 24px;
+    left: 412px;
+    width: 143px;
+    height: 100px;
+    background: url('../../../images/academics/activities/el-blue.svg');
+    background-repeat: no-repeat;
+    background-position: 20px -34px;
+    cursor: pointer;
+    margin-top: -43px;
+}
+
+.activities__button-block>p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    text-transform: lowercase;
+    color: var(--medium-color);
+    text-align: center;
+    padding-top: 40px;
+}
+
+.show-more-link {
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--medium-color);
+    display: block;
+    width: 100px;
+    position: relative;
+}
+
+.show-more-link::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    border-radius: 5px;
+    background-color: var(--blue-color);
+    bottom: 0;
+    left: 0;
+    transform-origin: right;
+    transform: scaleX(0);
+    transition: transform .5s ease-in-out;
+}
+
+.show-more-link:hover::after {
+    background-color: var(--medium-color);
+    transform-origin: left;
+    transform: scaleX(1);
 }
 
 .activities__questions-block {
     grid-area: quist;
+
+}
+
+.activities__questions-item {
+    position: relative;
+    color: var(--medium-color);
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+    padding: 7px 7px 7px 20px;
+
+}
+
+.activities__questions-item::before {
+    content: "";
+    position: absolute;
+    top: 20px;
+    left: 0px;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background-color: var(--medium-color);
 }

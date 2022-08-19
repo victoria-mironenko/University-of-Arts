@@ -9,6 +9,11 @@
 	height: 107px;
 
 }
+.header__logo{
+	cursor: pointer;
+	display: inline-block;
+	
+}
 
 .menu {
 	flex: 1 1 auto;
