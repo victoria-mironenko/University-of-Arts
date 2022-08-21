@@ -4,7 +4,7 @@ const yearSlider = new Swiper('.years-slider', {
 
     loop: true,
 
-    slidesPerView: 3,
+    slidesPerView: 4,
 
     centeredSlides: 'true',
 

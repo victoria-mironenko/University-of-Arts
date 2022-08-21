@@ -154,25 +154,36 @@
 
 .activities__text-block {
     grid-area: text-bl;
-    color: rgba(45, 45, 45, 0.9);
     position: relative;
+}
+.text-block{
+    color: rgba(45, 45, 45, 0.9);
+
 }
 
 .activities__text-block-title {
-    font-weight: 700;
-    font-size: 48px;
-    line-height: 48px;
     margin-bottom: 18px;
     margin-top: 20px;
 
 }
 
+.text-block-title {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 48px;
+
+}
+
 .activities__text {
+    padding-bottom: 25px;
+}
+
+.text {
     width: 550px;
     font-weight: 400;
     font-size: 20px;
     line-height: 20px;
-    padding-bottom: 25px;
+
 }
 
 .activities__button-block {
@@ -233,16 +244,20 @@
 }
 
 .activities__questions-item {
+    padding: 7px 7px 7px 20px;
+
+}
+
+.questions-item {
     position: relative;
     color: var(--medium-color);
     font-weight: 700;
     font-size: 20px;
     line-height: 20px;
-    padding: 7px 7px 7px 20px;
 
 }
 
-.activities__questions-item::before {
+.questions-item::before {
     content: "";
     position: absolute;
     top: 20px;
