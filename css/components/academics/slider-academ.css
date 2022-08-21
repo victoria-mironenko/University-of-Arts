@@ -34,15 +34,13 @@
 .swiper-wrapper-lf>.swiper-slide-prev {
     opacity: 0.7;
     transition: .5s;
-    transform: scale(1.2);
-    margin-left: 80px;
+    transform: translateX(80px) scale(1.2);
 }
 
 .swiper-wrapper-lf>.swiper-slide-next {
     opacity: 0.7;
     transition: .5s;
-    transform: scale(1.2);
-    margin-left: 80px;
+    transform: translateX(80px) scale(1.2);
 }
 
 

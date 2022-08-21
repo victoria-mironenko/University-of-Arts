@@ -79,10 +79,6 @@ h5 {
 	padding: 0 10px;
 }
 
-.flex-container {
-	display: flex;
-}
-
 .main {
 	flex: 1 1 auto;
 }

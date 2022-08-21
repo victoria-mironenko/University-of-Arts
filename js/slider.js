@@ -71,9 +71,14 @@ const swiperSecond = new Swiper('.swiper-2', {
                 '<span class="' + totalClass + '"></span>';
         }
 
+        // renderFraction: function (currentClass, index, totalClass) {
+        //     return '<span class="' + currentClass + '">' + (index + 1) + 
+        //     '<span class="' + totalClass + '"></span>';
+        // },
+
     },
 
-    
+
 
 
 

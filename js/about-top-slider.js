@@ -26,6 +26,7 @@ const swiperTales = new Swiper('.tales-slider', {
   // If we need pagination
   pagination: {
     el: '.swiper-pagination-4',
+    
   },
 
   // Navigation arrows
