@@ -49,13 +49,7 @@ const swiperSecond = new Swiper('.swiper-2', {
 
     autoHeight: false,
 
-    // slidesPerView: 2,
 
-
-
-
-
-    // spaceBetween: 20,
 
     slidesPerGroup: 2,
 

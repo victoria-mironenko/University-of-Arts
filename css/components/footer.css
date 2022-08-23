@@ -119,8 +119,6 @@
 
 }
 
-
-
 .footer__social-logo:hover {
 	background-color: var(--main-color);
 	box-shadow: 0 0 0 6px var(--blue-color);
@@ -287,5 +285,3 @@
 	}
 
 }
-
-@media screen and (max-width: 319.98px) {}

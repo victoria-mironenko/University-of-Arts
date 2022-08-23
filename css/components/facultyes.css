@@ -4,7 +4,6 @@
     margin: 0 auto;
     display: flex;
     justify-content: space-around;
-
 }
 
 .facultyes__container--home-page {
@@ -17,12 +16,12 @@
     flex-direction: column;
     align-items: center;
     text-align: center;
-    
 }
-.facultyes__item-link{
-    position: relative;
 
+.facultyes__item-link {
+    position: relative;
 }
+
 .facultyes__item>h3 {
     margin-top: 61px;
     margin-bottom: 15px;
@@ -38,7 +37,6 @@
     position: absolute;
     top: 9px;
     right: 9px;
-
 }
 
 .facultyes__arrow-art {
@@ -93,14 +91,9 @@
 }
 
 @media screen and (max-width: 575.98px) {
-    .facultyes__container{
+    .facultyes__container {
         flex-direction: column;
         justify-content: center;
         align-items: center;
     }
 }
-
-
-@media screen and (max-width: 444.98px) {}
-
-@media screen and (max-width: 319.98px) {}

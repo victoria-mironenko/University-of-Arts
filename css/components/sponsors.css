@@ -20,7 +20,6 @@
 .sponsors__item:hover .sponsors__image {
     transform: rotate(360deg);
     transition: .5s;
-
 }
 
 /* ------------------------------------------------------------------ */
@@ -46,7 +45,3 @@
         width: 60%;
     }
 }
-
-@media screen and (max-width: 444.98px) {}
-
-@media screen and (max-width: 319.98px) {}

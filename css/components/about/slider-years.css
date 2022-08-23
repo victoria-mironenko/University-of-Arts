@@ -30,10 +30,10 @@
 .years__item {
     font-weight: 700;
     font-size: 20px;
-    line-height: 20px;  
+    line-height: 20px;
     height: 24px;
     width: 48px;
-    
+
 
 }
 
@@ -49,11 +49,12 @@
 .swiper-button-prev-5::after {
     display: none;
 }
+
 .swiper-button-next-5::after {
     display: none;
 }
 
-.swiper-button-prev-5{
+.swiper-button-prev-5 {
     width: 13px;
     height: 29px;
     background-image: url('../../../images/about/home/prev-arrow.svg');
@@ -61,7 +62,8 @@
     top: 95px;
     left: 1px;
 }
-.swiper-button-next-5{
+
+.swiper-button-next-5 {
     width: 13px;
     height: 29px;
     background-image: url('../../../images/about/home/next-arrow.svg');

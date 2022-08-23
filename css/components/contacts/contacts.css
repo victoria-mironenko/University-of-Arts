@@ -5,14 +5,12 @@
     background-image: url('../../../images/contacts/image.png');
     background-repeat: no-repeat;
     background-position: 613px 100px;
-
 }
 
 .contacts-top__title {
     line-height: 84px;
     padding-top: 116px;
     margin-bottom: 36px;
-
 }
 
 .contacts-top__year {
@@ -23,11 +21,9 @@
     color: rgba(0, 0, 0, 0.5)
 }
 
-
 .tabs-container {
     width: 552px;
 }
-
 
 .con-tabs {
     display: flex;
@@ -44,7 +40,6 @@
     font-size: 17px;
     line-height: 27px;
     color: var(--light-color);
-
 }
 
 .con-tabs .con-tab {
@@ -65,6 +60,7 @@
     font-weight: 600;
     font-size: 36px;
     line-height: 27px;
+    transition: .7s;
 }
 
 .con-tabs input[type="radio"]:checked+label+.con-tab {
@@ -134,49 +130,42 @@
     position: absolute;
     right: 182px;
     bottom: 42px;
-
 }
 
 .decor-blue-m {
     position: absolute;
     right: 93px;
     bottom: 42px;
-
 }
 
 .decor-blue-l {
     position: absolute;
     right: -3px;
     bottom: 42px;
-
 }
 
 .decor-green {
     position: absolute;
     right: -3px;
     bottom: 446px;
-
 }
 
 .decor-to-gr {
     position: absolute;
     right: 37px;
     bottom: 533px;
-
 }
 
 .decor-pink {
     position: absolute;
     right: 344px;
     bottom: 158px;
-
 }
 
 .decor-arrow {
     position: absolute;
     left: 53px;
     bottom: 412px;
-
 }
 
 .decor-white-top {
@@ -189,28 +178,24 @@
     position: absolute;
     right: 478px;
     bottom: 177px;
-
 }
 
 .decor-bullet-1 {
     position: absolute;
     right: 28px;
     bottom: 158px;
-
 }
 
 .decor-bullet-2 {
     position: absolute;
     right: 28px;
     bottom: 195px;
-
 }
 
 .decor-bullet-3 {
     position: absolute;
     right: 28px;
     bottom: 232px;
-
 }
 
 .museum-block {
@@ -262,8 +247,6 @@
     top: 11px;
     left: -29px;
 }
-
-
 
 .social-icon-wrap {
     height: 37px;

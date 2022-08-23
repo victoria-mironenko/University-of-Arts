@@ -35,9 +35,8 @@
     gap: 28px;
 }
 
-.form-part{
+.form-part {
     position: relative;
-
 }
 
 .application__form-field {
@@ -50,7 +49,8 @@
     width: 100%;
     transition: .5s;
 }
-.form-part span{
+
+.form-part span {
     position: absolute;
     left: 0;
     padding: 24px 31px 19px 33px;
@@ -59,8 +59,9 @@
     transition: .5s;
 
 }
-.application__form-field:valid ~ span,
-.application__form-field:focus ~ span{
+
+.application__form-field:valid~span,
+.application__form-field:focus~span {
     color: var(--green-color);
     transform: translate(10px, -9px);
     font-size: .8em;
@@ -70,8 +71,9 @@
     border-right: 1px solid var(--green-color);
     letter-spacing: 0.2em;
 }
+
 .application__form-field:valid,
-.application__form-field:focus{
+.application__form-field:focus {
     border: 1px solid var(--green-color);
 }
 
@@ -176,21 +178,24 @@
         margin-bottom: 40px;
         flex-direction: column;
     }
-    .application__container{
+
+    .application__container {
         width: auto;
         display: flex;
         gap: 3vw;
     }
-    .application__container-text{
+
+    .application__container-text {
         flex: 0 1 50%;
     }
 
 }
 
 @media screen and (max-width: 575.98px) {
-    .application__container{
+    .application__container {
         flex-direction: column;
     }
+
     .application__container-text>h2 {
         padding-top: 10px;
         padding-bottom: 25px;
@@ -198,14 +203,14 @@
 }
 
 @media screen and (max-width: 444.98px) {
-    .application__logo{
+    .application__logo {
         width: 90%;
         height: 90%;
     }
 }
 
 @media screen and (max-width: 319.98px) {
-    .application__logo{
+    .application__logo {
         width: 80%;
         height: 80%;
     }
