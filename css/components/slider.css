@@ -1,9 +1,8 @@
-
-
-.swiper-button-next::after{
+.swiper-button-next::after {
     display: none;
 }
-.swiper-button-next{
+
+.swiper-button-next {
     width: 80px;
     height: 15px;
     background: url('../../images/arrow-next.svg');
@@ -11,16 +10,17 @@
     margin-top: 3px;
     grid-area: next;
 }
-.presentation__manage-block{
+
+.presentation__manage-block {
     padding-top: 15px;
     display: grid;
     grid-template-columns: 3fr 1fr;
     grid-template-areas: "pag next";
     justify-items: end;
-    
+
 }
 
-.swiper-pagination{
+.swiper-pagination {
 
     position: static;
     grid-area: pag;
@@ -29,13 +29,13 @@
     justify-content: flex-end;
     margin-top: 4px;
 }
-.swiper-pagination-bullet{
+
+.swiper-pagination-bullet {
     position: static;
     margin-left: 15px !important;
     background-color: #fff;
     border: 7px double var(--main-color);
-    
-    
+
 }
 
 
@@ -47,11 +47,7 @@
     margin: 0 auto;
     overflow: hidden;
     padding-left: 20px;
-
 }
-
-
-
 
 .swiper-pagination-fraction {
     font-weight: 600;
@@ -59,8 +55,6 @@
     line-height: 30px;
     color: rgba(0, 0, 0, 0.8);
     transform: translate(985px, -20px);
-
-
 }
 
 .swiper-slider__fraction {
@@ -69,20 +63,20 @@
 
 /* ----------------------First Slider-------------------------------------------- */
 /* ------------------------------------------------------------------ */
-@media screen and (max-width: 767.98px){
-    .presentation__manage-block{
+@media screen and (max-width: 767.98px) {
+    .presentation__manage-block {
         justify-items: start;
     }
-    .swiper-pagination{
+
+    .swiper-pagination {
         justify-content: center;
     }
 }
 
-@media screen and (max-width: 575.98px){
+@media screen and (max-width: 575.98px) {}
 
-}
-@media screen and (max-width: 444.98px){
-    .presentation__manage-block{
+@media screen and (max-width: 444.98px) {
+    .presentation__manage-block {
         grid-template-columns: 2fr 1fr;
     }
 }

@@ -10,7 +10,7 @@ const gallery = new Swiper('.modal-gallery', {
     mousewheel: {
         sensitivity: 1,
         eventsTarget: '.modal-gallery',
-        
+
     },
 
     slideToClickedSlide: true,
@@ -18,4 +18,6 @@ const gallery = new Swiper('.modal-gallery', {
     observer: true,
     observeParents: true,
     observeSlideChildren: true,
+
+
 })

@@ -2,7 +2,6 @@
 	height: 750px;
 	display: flex;
 	justify-content: space-between;
-
 }
 
 .presentation__text {
@@ -19,16 +18,12 @@
 .view {
 	display: flex;
 	justify-content: flex-end;
-
 }
 
 .view__prew {
 	padding-top: 50px;
 	max-width: 100%;
-
 }
-
-
 
 .presentation__button-block {
 	position: absolute;
@@ -39,7 +34,6 @@
 	background: url(../../images/element-green.svg);
 	z-index: 2;
 	cursor: pointer;
-
 }
 
 .button-block__text {
@@ -53,14 +47,11 @@
 }
 
 
-
 .presentation__element-orange {
 	position: absolute;
 	top: 37px;
 	right: -25px;
 	z-index: 2;
-
-
 }
 
 
@@ -73,7 +64,6 @@
 
 .presentation__text-titles {
 	margin-top: 90px;
-
 }
 
 .presentation__text-titles>h1 {
@@ -87,13 +77,11 @@
 }
 
 
-
 .presentation__text-link {
 	display: block;
 	width: 72px;
 	color: var(--light-color);
 	position: relative;
-
 }
 
 .presentation__text-link::after {
@@ -119,7 +107,7 @@
 .video-modal {
 	width: 760px;
 	height: 515px;
-	box-shadow: 0 0 13px 3px rgba(0,0,0,.5);
+	box-shadow: 0 0 13px 3px rgba(0, 0, 0, .5);
 	background-color: var(--green-color);
 	border-radius: 12px;
 	position: fixed;
@@ -246,7 +234,7 @@
 		transform: translate(15px, 139px);
 	}
 
-	.video-modal{
+	.video-modal {
 		width: 80%;
 	}
 
@@ -273,7 +261,7 @@
 	.presentation__element-orange {
 		top: 24px;
 		right: -5px;
-		
+
 	}
 
 	.presentation__button-block {

@@ -92,9 +92,10 @@
     opacity: 1;
 }
 
-.education__show-more{
+.education__show-more {
     margin-left: 65%;
 }
+
 .education__show-more-link {
     font-weight: 400;
     font-size: 16px;
@@ -119,7 +120,7 @@
 }
 
 .education__show-more-link:hover::after {
-    background-color:  rgba(255, 255, 255, 0.7);
+    background-color: rgba(255, 255, 255, 0.7);
     transform-origin: left;
     transform: scaleX(1);
 }

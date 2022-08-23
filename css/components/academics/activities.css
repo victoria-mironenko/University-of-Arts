@@ -15,8 +15,6 @@
         "photo-slider photo-slider photo2"
         "text-bl text-bl quist";
 
-
-
 }
 
 .activities__switch {
@@ -156,7 +154,8 @@
     grid-area: text-bl;
     position: relative;
 }
-.text-block{
+
+.text-block {
     color: rgba(45, 45, 45, 0.9);
 
 }

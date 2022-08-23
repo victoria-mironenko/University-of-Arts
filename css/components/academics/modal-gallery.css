@@ -10,8 +10,6 @@
     transform: translate(-50%, -350%);
     transition: .8s ease-in-out;
     z-index: 110;
-
-
 }
 
 .modal-gallery {

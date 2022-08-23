@@ -33,7 +33,6 @@
 }
 
 
-
 .academics-top__text-titles>h5 {
     line-height: 1.025;
 }
@@ -52,16 +51,18 @@
     z-index: -1;
 }
 
-.academics__button-block{
+.academics__button-block {
     position: absolute;
-	top: 265px;
+    top: 265px;
     right: 20px;
-	z-index: 2;
-	cursor: pointer;
+    z-index: 2;
+    cursor: pointer;
 }
-.button-block__text--academics{
+
+.button-block__text--academics {
     color: var(--medium-color);
 }
-.video-modal--academics{
+
+.video-modal--academics {
     background-color: var(--blue-color);
 }

@@ -7,9 +7,10 @@
 
 }
 
-.video-block__item{
+.video-block__item {
     border: none;
 }
+
 .slide-amst {
     width: 1080px;
     display: flex;
@@ -47,18 +48,18 @@
     width: 1080px;
     height: 315px;
     display: flex;
-    
+
 
 }
 
-.manager-amst{
+.manager-amst {
     position: absolute;
     width: 100%;
     bottom: 40px;
     left: 0px;
 }
 
-.slider-amsterdam> .swiper-scrollbar-horizontal {
+.slider-amsterdam>.swiper-scrollbar-horizontal {
     position: absolute;
     bottom: 215px;
 }
@@ -66,7 +67,7 @@
 
 .swiper-scrollbar-drag {
     background: var(--dark-color);
-    
+
 }
 
 
@@ -108,6 +109,7 @@
     margin-top: 20px;
 
 }
+
 .swiper-button-prev-6::after {
     display: none;
 
@@ -124,10 +126,11 @@
 
 }
 
-.application__wrapper--about{
+.application__wrapper--about {
     margin-top: 81px;
     margin-bottom: 78px;
 }
-.facultyes__container--about{
+
+.facultyes__container--about {
     margin-top: 86px;
 }
